@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+  font-family: "Poppins", serif;
+  background-color: #F9FAFB;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  max-width: 700px;
+}
+
+img {
+  width: 64px;
+  height: 64px;
+}
+
+h1 {
+  color: #000000;
+  font-size: clamp(2.5rem, 4vw, 3rem);
+  font-weight: 600;
+  text-align: center;
+}
+
+h2 {
+  color: #6C727F;
+  font-size: clamp(1rem, 4vw, 1.25rem);
+  font-weight: 400;
+  line-height: 150%;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: #FFFFFF;
+  padding: 1.5rem;
+  border-radius: 20px;
+  box-shadow: 4px 8px 15px #E5E7EB, -4px 8px 15px #E5E7EB;
+}
+
+input {
+  font-family: "Poppins", serif;
+  background-color: #F9FAFB;
+  border: 1px solid #E5E7EB;
+  border-radius: 10px;
+  padding: 1rem 1rem;
+  font-size: clamp(0.75rem, 4vw, 0.875rem);
+  font-weight: 500;
+  color: #394150;
+  width: -webkit-fill-available;
+  text-align: center;
+}
+
+input::placeholder {
+  text-align: center;
+  color: #394150;
+}
+
+button {
+  display: block;
+  width: -webkit-fill-available;
+  font-family: "Poppins", serif;
+  background-color: #284BCE;
+  border: 1px solid #284BCE;
+  border-radius: 10px;
+  padding: 1rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  font-size: clamp(0.75rem, 4vw, 0.875rem);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+p {
+  color: #394150;
+  font-size: clamp(0.75rem, 4vw, 0.875rem);
+  font-weight: 400;
+  line-height: 120%;
+  padding: 0 1.5rem;
+  text-align: center;
+}
