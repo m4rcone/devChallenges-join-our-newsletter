@@ -2,7 +2,7 @@
 
 <div align="center">
   <h3>
-    <a href="{https://your-demo-link.your-domain}">
+    <a href="https://dev-challenges-join-our-newsletter.vercel.app/">
       Demo
     </a>
     <span> | </span>
